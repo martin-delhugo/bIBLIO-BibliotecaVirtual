@@ -1,0 +1,56 @@
+
+<nav class="navbar navbar-expand-lg p-4 color-nav">
+    <div class="container-fluid ">
+      <a class="navbar-brand tit-nav btn-nav-logo" href="#">bIBLIO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class=" nav-link  btn-nav m-1 anima"role="button"  routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-nav m-1 anima" routerLink="/catalogo" role="button" >Catálogo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-nav m-1 anima" role="button"  routerLink="/quienes_somos">¿Quiénes Somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-nav  m-1 anima" role="button"   routerLink="/contacto">Contacto</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control m-1 nav-input-search" type="search" placeholder="¿Que libro buscás?" aria-label="Search">
+          <button class="btn m-1 btn-nav-search" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet> 
+
+  <section class="foot-section container-fluid">
+    <footer class="row">
+
+      <div class="col-sm-12 col-md-6 col-lg-4 nav-tit d-flex justify-content-center align-items-center">
+      <h1 class="texto">bIBLIO</h1>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-8 nav-foot d-flex justify-content-center align-items-center">
+       
+          <a class= "texto"role="button"  routerLink="/home">Home</a>
+
+ 
+          <a class="texto" routerLink="/catalogo" role="button" >Catálogo</a>
+
+
+          <a class="texto" role="button"  routerLink="/quienes_somos">¿Quiénes Somos?</a>
+
+
+          <a class="texto" role="button"   routerLink="/contacto">Contacto</a>
+
+      </div>
+
+    </footer>
+  </section>

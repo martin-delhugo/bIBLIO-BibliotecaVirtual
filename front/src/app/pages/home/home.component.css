@@ -1,0 +1,108 @@
+html 
+{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin:0rem 0rem;
+   
+   /*propiedades de fuente */
+    font-size: 16px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+
+}
+.borde{
+    border: 1px solid blue;
+
+}
+/*###### HERO ######*/
+.hero{
+    background-image: url(../../../assets/imagen-1.jpg);
+    background-size: cover; 
+    height: 90vh;
+}
+
+.hero-p1{
+    height: 45vh;
+}
+.hero-p2{
+    height: 45vh;
+}
+
+/*---------------------------*/
+.hero-p1-cont{
+    background-color: rgba(0, 0, 0, .0);
+    width: 80vw;
+    height: 20rem; 
+}
+.hero-logo{
+    width: 15rem;
+    height: 15rem;
+}
+/*---------------------------*/
+.hero-p2-cont{
+    background-color: rgba(0, 0, 0, .3);
+    height: 45vh;
+    padding: 1rem;
+    
+
+}
+.hero-p2-subcont{
+    border:3px solid rgba(0, 0, 0, .2);
+    padding: 1rem;
+
+}
+.hero-p2-tit{
+    color: white;
+    padding: 1rem;
+
+
+}
+.sub-tit{
+    color: #ddd;
+}
+
+
+/*###### MEDIA QUERIES ######*/
+/*###### MEDIA QUERIES ######*/
+/*###### MEDIA QUERIES ######*/
+
+@media(min-width:992px){
+    .hero-p1{
+        height: 90vh;
+    }
+    .hero-p2{
+        height: 90vh;
+    }
+
+    /*---------------------------*/
+.hero-p1-cont{
+    background-color: rgba(0, 0, 0, .3);
+    width: 50rem;
+    height: 80%; 
+}
+.hero-logo{
+    width: 25rem;
+    height: 25rem;
+}
+/*---------------------------*/
+.hero-p2-cont{
+    background-color: rgba(0, 0, 0, .3);
+    width: 35rem;
+    height: 80%; 
+
+}
+.hero-p2-tit{
+    color: white;
+
+}
+.hero-p2-subcont{
+    background-color: rgba(0, 0, 0, .1);
+    border:3px solid rgba(0, 0, 0, .2);
+    padding: 15% 2rem;
+
+}
+.sub-tit{
+    color: #ddd;
+}
+
+}

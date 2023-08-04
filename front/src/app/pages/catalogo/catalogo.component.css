@@ -1,0 +1,33 @@
+/*----- NOVEDADES -----*/
+/*----- NOVEDADES -----*/
+/*----- NOVEDADES -----*/
+.novedades{
+    
+    background: linear-gradient(to top, #e9d362, #0D0D0D);
+    height:  90vh;
+    padding: 2rem;
+}
+
+.nov-tit{
+    color: #fff;
+    padding: 1rem;
+
+}
+
+.nov-slide-cont{
+
+    border-radius: 1rem;
+    height: 60vh;
+
+    
+}
+
+
+.card{
+    height: 55vh;
+    width: auto;
+    padding: 1rem;
+    background-color: transparent;
+}
+
+
